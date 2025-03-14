@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="format-detection" content="email=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -48,15 +48,63 @@
                 <span class="slider round"></span>
             </label> -->
             <style>
-                @media (min-width: 	750px){
-                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
-                    .switch input{display:none;}
-                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
-                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
-                    input:checked + .slider{background-color:#1abc9c;}
-                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
-                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
-                    .slider.round:before{border-radius:50%;}
+                @media (min-width: 750px) {
+                    .switch {
+                        position: relative;
+                        display: inline-block !important;
+                        width: 60px;
+                        height: 34px;
+                    }
+
+                    .switch input {
+                        display: none;
+                    }
+
+                    .slider {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: #ccc;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    .slider:before {
+                        position: absolute;
+                        content: "";
+                        height: 26px;
+                        width: 26px;
+                        left: 4px;
+                        bottom: 4px;
+                        background-color: white;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    input:checked+.slider {
+                        background-color: #1abc9c;
+                    }
+
+                    input:focus+.slider {
+                        box-shadow: 0 0 1px #1abc9c;
+                    }
+
+                    input:checked+.slider:before {
+                        -webkit-transform: translateX(26px);
+                        -ms-transform: translateX(26px);
+                        transform: translateX(26px);
+                    }
+
+                    .slider.round {
+                        border-radius: 34px;
+                    }
+
+                    .slider.round:before {
+                        border-radius: 50%;
+                    }
                 }
             </style>
             <!-- 左侧固定开关，记得及时删除这段代码 End-->
@@ -83,8 +131,9 @@
             <!-- 基本信息 -->
             <section class="profile info-unit">
                 <h2>
-                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
-                <hr/>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息
+                </h2>
+                <hr />
                 <ul>
                     <li>
                         <label>个人信息</label>
@@ -104,8 +153,9 @@
             <!-- 联系方式 -->
             <section class="contact info-unit">
                 <h2>
-                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
-                <hr/>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式
+                </h2>
+                <hr />
                 <ul>
                     <li>
                         <label>手机</label>
@@ -125,8 +175,9 @@
             <!-- 技能点 -->
             <section class="skill info-unit">
                 <h2>
-                    <i class="fa fa-code" aria-hidden="true"></i>技能点</h2>
-                <hr/>
+                    <i class="fa fa-code" aria-hidden="true"></i>技能点
+                </h2>
+                <hr />
                 <ul>
                     <li>
                         <label>HTML</label>
@@ -187,8 +238,9 @@
             <!-- 教育经历 -->
             <section class="edu info-unit">
                 <h2>
-                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
-                <hr/>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历
+                </h2>
+                <hr />
                 <ul>
                     <li>
                         <h3>
@@ -196,22 +248,63 @@
                             <time>2000.9-2004</time>
                         </h3>
                         <p>学历
-                            <mark>大专</mark></p>
+                            <mark>大专</mark>
+                        </p>
                     </li>
-                  
+
                 </ul>
             </section>
 
             <!-- 工作经历 -->
             <section class="work info-unit">
                 <h2>
-                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>工作经历</h2>
-                <hr/>
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>工作经历
+                </h2>
+                <hr />
                 <ul>
                     <li>
                         <h3>
                             <span>[经历1]杭州好麦控股有限公司－仓库经理</span>
-                            <time>2023.8 - 至今</time>
+                            <time>2024.8 - 至今</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>工作内容：
+                                <mark>1. 入库管理
+                                    核对采购订单与实际到货商品是否一致。
+                                    检查商品质量、数量和规格。
+                                    在系统中记录入库信息（如日期、供应商、商品编号等）。
+                                    更新库存数据；</mark>
+                                <mark>2. 出库管理
+                                    根据销售订单或领料单准备商品。
+                                    确保出库商品的准确性和完整性。
+                                    记录出库信息（如客户名称、出库时间、商品明细等）。
+                                    调整库存数据以反映最新状态。；</mark>
+                                <mark>3. 库存盘点
+                                    定期进行库存盘点，确保账实相符。
+                                    分析库存差异原因并采取纠正措施。
+                                    提交盘点报告给上级主管；</mark>
+                                <mark>4. 货位管理
+                                    维护货位信息，确保每个商品都有明确的存放位置。
+                                    增加或调整货位编号，优化仓库空间利用。
+                                    打印货位条形码，便于快速识别和管理</mark>
+                                <mark>4. 货位管理
+                                    维护货位信息，确保每个商品都有明确的存放位置。
+                                    增加或调整货位编号，优化仓库空间利用。
+                                    打印货位条形码，便于快速识别和管理</mark>
+                                <mark>5. 异常处理
+                                    处理库存不足、商品损坏或其他异常情况。
+                                    及时上报问题并协调相关部门解决</mark>
+                            </li>
+                            <li>负责工作：
+                                <mark>1. 制定仓库管理制度，包括入库、出库、库存盘点等流程；</mark>
+                                <mark>2. 参与仓库设备维护，确保仓库设备正常运行；</mark>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[经历2]杭州好麦控股有限公司－仓库经理</span>
+                            <time>2023.8 - 2024.8</time>
                         </h3>
                         <ul class="info-content">
                             <li>工作内容：
@@ -238,7 +331,7 @@
                             </li>
                         </ul> -->
                         <h3>
-                            <span>[经历2]华立医药股份有限公司－仓库管理员</span>
+                            <span>[经历3]华立医药股份有限公司－仓库管理员</span>
                             <time>2017.11-2022.12</time>
                         </h3>
                         <ul class="info-content">
@@ -251,7 +344,7 @@
                     </li>
                     <li>
                         <h3>
-                            <span>[经历3]浙江恩赞医药有限公司－仓库管理员</span>
+                            <span>[经历4]浙江恩赞医药有限公司－仓库管理员</span>
                             <time>2017.11 - 2010.2</time>
                         </h3>
                         <ul class="info-content">
@@ -272,8 +365,9 @@
             <!-- 项目经验 -->
             <section class="project info-unit">
                 <h2>
-                    <i class="fa fa-terminal" aria-hidden="true"></i>个人项目</h2>
-                <hr/>
+                    <i class="fa fa-terminal" aria-hidden="true"></i>个人项目
+                </h2>
+                <hr />
                 <ul>
                     <li>
                         <h3>
@@ -287,10 +381,11 @@
                             <li>
                                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                                 [实现]在杭州好麦控股有限公司使用
-                                <br/>
-                                <a href="https://static-mp-f848af8e-dc1a-424f-9212-bc70b00c8fa9.next.bspapp.com/" target="_blank">项目体验</a>
-                                <br/>
-                               </li>
+                                <br />
+                                <a href="https://static-mp-f848af8e-dc1a-424f-9212-bc70b00c8fa9.next.bspapp.com/"
+                                    target="_blank">项目体验</a>
+                                <br />
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -299,21 +394,22 @@
                             <span class="link">
                                 <a href="#" target="_blank">个人制作</a>
                             </span>
-                            
+
                         </h3>
                         <ul class="info-content">
                             <li>技术栈：uniapp+unicloud</li>
                             <li>
                                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                                 [实现]在杭州好麦控股有限公司使用
-                                <br/>
-                                <a href="https://mp-f848af8e-dc1a-424f-9212-bc70b00c8fa9.cdn.bspapp.com/__UNI__EDA8AA1__20240314144045.apk" target="_blank">下载地址</a>
-                                <br/>
-                               </li>
+                                <br />
+                                <a href="https://mp-f848af8e-dc1a-424f-9212-bc70b00c8fa9.cdn.bspapp.com/__UNI__EDA8AA1__20240314144045.apk"
+                                    target="_blank">下载地址</a>
+                                <br />
+                            </li>
                         </ul>
                     </li>
-                   
-                
+
+
 
                 </ul>
             </section>
@@ -321,11 +417,12 @@
             <!-- 自我评价 -->
             <section class="work info-unit">
                 <h2>
-                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望</h2>
-                <hr/>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>自我评价/期望
+                </h2>
+                <hr />
                 <p>
                     <span class="mark-txt">“我是一个充满活力、对工作充满热情、善于学习、沟通能力强、有团队协作精神。”</span>这是对自我的一种定位和描述，也是我不断努力、不断进取的源动力。
-                   </p>
+                </p>
             </section>
         </section>
     </article>
@@ -334,7 +431,8 @@
 
     <footer class="footer">
         <p>© 黄剑.文档最后更新时间为
-            <time>2024年03月25日</time>.</p>
+            <time>2024年03月25日</time>.
+        </p>
     </footer>
 
     <!-- 侧栏 -->
